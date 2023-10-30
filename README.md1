@@ -1,0 +1,61 @@
+PROJECT: HOOKS AND STRINGS.
+AUTHOR: ANGELA WAGASA SHIRAO
+GITHUB LINK: "https://github.com/angelshizzy/Phase-1-project-"
+COPYRIGHT.
+
+ABOUT HOOKS AND STRINGS
+This application runs on a single page.
+It includes a HTML file, CSS, JavaScript, and JSON File.
+Hooks & Strings is a web application designed to cater TO crochet and knitting designers. It displays different handmade designs which can be bought.
+It also allows users to give reviews.
+It will allows creators to add designs and interact.
+API Data
+I created my own API data which included the items and reviews.
+Some include:
+ {
+  "items":[
+      {
+          "id": 1,
+          "title": "Item 1",
+          "category": "crochet",
+          "price": 2000,
+          "imageLink": "../assets/image_6483441.JPG",
+          "description":"5 in stock. Sizes (S) to (XXL)"
+      },
+      {
+          "id": 2,
+          "title": "Item 2",
+          "category": "crochet",
+          "price": 4500,
+          "imageLink": "../assets/image_6483442.JPG",
+          "description":"16 in stock. Sizes (M) to (XL)"
+      },
+  ],
+}
+  
+  "reviews": [
+      {
+          "id": 1,
+          "comment": "Review for item 1",
+          "itemId": 1
+      },
+      {
+          "id": 2,
+          "comment": "Review for item 1",
+          "itemId": 1
+      },
+  ]
+
+I used json-server --watch db.json to run the server.
+HTML was used to create the structure and CSS was used to style the app.
+Data from the JSON file was used to populate different segments while using JavaScript.
+I expected some challenges during the coding process like knowing the most suitable way to frame a certain command or writing the command with the right tags.
+I had to comment out some sections of code to know what I was doing wrong.
+I experienced some blockers and a hard time debugging the code but I got help from online, my TM, and other students.
+I added functions like submit to review forms, which enable a user to write a comment on a certain item.
+As a user, I can also delete an item that is no longer present.
+A buy function has also been added and when clicked it gives the customer a -30 shillings discount on the original price by updating it to a new(-30 ) price.
+
+I believe this idea is great and has potential and I would wish to add more events to it in the near future to enable creators to interact, and add their design pictures and written patterns.
+
+Documented by: ANGELA SHIRAO# Project-Phase1

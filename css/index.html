@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <title>Project Phase 1</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/53e6e46580.js" crossorigin="anonymous"></script>
+    <script src="../db.json"></script>
+</head>
+<body class="body">
+<!-- Header section -->
+<header>
+    <nav>
+        <div class = "logo"> HOOKS & STRINGS</div>
+        <div class ="nav-items">
+            <a href="#home">Home</a>
+            <a href="#contactus">Contact Us</a>
+            <a href="#samples">Samples</a>
+            <a href="#reviews">Reviews</a>
+        </div>
+    </nav>
+</header>
+<!-- Home section -->
+<section class="home">
+    <div class="home-container">
+        <div class="column-left">
+            <h1>Buy Hand-Made Designs and Crochet Patterns</h1>
+            <p>Exclusive offers for the first 50 Clients</p>
+            <button>Sign Up</button>
+        </div>
+        <div id="column-right" class="row">
+            <img src="../assets/image.png" alt="Image">
+        </div>
+    </div>
+
+    <!-- Designs Section-->
+    <section class="designs">
+        <h1>Designs</h1>
+        <div id="div-samples">
+        </div>
+    </section>
+<!-- json-server --watch db.json -->
+</section>
+<!-- Reviews Section -->
+<section>
+    <h1 class="section-title">What People Say</h1>
+        <h4>See what others say</h4>
+        <h5>Design</h5>
+
+        <ul>
+            <li>
+                <h3>Item 1</h3>
+                <div>ID: 1</div>
+            </li>
+            <li>
+                <h3>Item 2</h3>
+                <div>ID: 2</div>
+            </li>
+            <li>
+                <h3>Item 3</h3>
+                <div>ID: 3</div>
+            </li>
+            <li>
+                <h3>Item 4</h3>
+                <div>ID: 4</div>
+            </li>
+            <li>
+                <h3>Item 5</h3>
+                <div>ID: 5</div>
+            </li>
+        </ul>
+        <form>
+            <label for="searchByID">Search By ID</label>
+            <input id = "searchByID" type="text" placeholder="Enter Item ID here">
+            <input type="submit"/>
+        </form>
+</section>
+<section id="itemReviews">
+    <h5>title</h5>
+    <p>comment</p>
+</section>
+
+<!-- Contact section -->
+<section>
+    <div class="div-contact">
+        <h2>Contact Us</h2>
+    </div>
+    <div class="div">
+        <a class="div-link" href="https://www.instagram.com/shizzyangel/"><i class="fa-brands fa-instagram"></i></a>
+        <a class="div-link" href="https://www.linkedin.com/in/angela-shirao-028a47202/"><i class="fa-brands fa-linkedin"></i></a>
+        <a class="div-link" href="mailtoangelashirao1@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+    </div>
+</section>
+
+</body>
+</html>

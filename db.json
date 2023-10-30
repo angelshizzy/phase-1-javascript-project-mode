@@ -1,0 +1,88 @@
+{
+    "items":[
+        {
+            "id": 1,
+            "title": "Item 1",
+            "category": "crochet",
+            "price": 2000,
+            "imageLink": "../assets/image_6483441.JPG",
+            "description":"5 in stock. Sizes (S) to (XXL)"
+        },
+        {
+            "id": 2,
+            "title": "Item 2",
+            "category": "crochet",
+            "price": 4500,
+            "imageLink": "../assets/image_6483442.JPG",
+            "description":"16 in stock. Sizes (M) to (XL)"
+        },
+        {
+            "id": 3,
+            "title": "Item 3",
+            "category": "crochet",
+            "price": 3500,
+            "imageLink": "../assets/image_6487323.JPG.JPG",
+            "description":"5 in stock. Sizes (M) to (XXL)"
+        },
+        {
+            "id": 4,
+            "title": "Item 4",
+            "category": "crochet",
+            "imageLink": "../assets/image_6487327 (4).JPG",
+            "price": 1000,
+            "description":"8 in stock. Sizes (M) to (XXL)"
+        },
+        {
+            "id": 5,
+            "title": "Item 5",
+            "category": "crochet",
+            "price": 2500,
+            "imageLink": "../assets/image_6487327 (5).JPG",
+            "description":"4 in stock. Sizes (M) to (XXL)"
+        },
+        {
+            "id": 6,
+            "title": "Item 6",
+            "category": "knit",
+            "price": 3000,
+            "imageLink": "../assets/image_6487327.JPG",
+            "description":"1 in stock. Sizes (M) "
+        },
+        {
+            "id": 7,
+            "title": "Item 7",
+            "category": "knit",
+            "price": 4500,
+            "imageLink": "../assets/image_67514113.JPG",
+            "description":"10 in stock. Sizes (M) to (XXL)"
+        }
+    ],
+    
+    "reviews": [
+        {
+            "id": 1,
+            "comment": "Beautiful piece",
+            "title": 1
+        },
+        {
+            "id": 2,
+            "comment": "Great quality of yarn used",
+            "title": 1
+        },
+        {
+            "id": 3,
+            "comment": "I need a writte pattern",
+            "title": 1
+        },
+        {
+            "id": 4,
+            "comment": "Love the design",
+            "title": 2
+        },
+        {
+            "id": 5,
+            "comment": "wow!!",
+            "title": 3
+        }
+    ]
+  }
