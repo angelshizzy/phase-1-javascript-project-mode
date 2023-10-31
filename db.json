@@ -4,6 +4,7 @@
             "id": 1,
             "title": "Item 1",
             "category": "crochet",
+            "stock" : "10",
             "price": 2000,
             "imageLink": "../assets/image_6483441.JPG",
             "description":"5 in stock. Sizes (S) to (XXL)"
@@ -12,6 +13,7 @@
             "id": 2,
             "title": "Item 2",
             "category": "crochet",
+            "stock" : "2",
             "price": 4500,
             "imageLink": "../assets/image_6483442.JPG",
             "description":"16 in stock. Sizes (M) to (XL)"
@@ -20,15 +22,17 @@
             "id": 3,
             "title": "Item 3",
             "category": "crochet",
+            "stock" : "1",
             "price": 3500,
-            "imageLink": "../assets/image_6487323.JPG.JPG",
+            "imageLink": "../assets/image_6487323.JPG",
             "description":"5 in stock. Sizes (M) to (XXL)"
         },
         {
             "id": 4,
             "title": "Item 4",
             "category": "crochet",
-            "imageLink": "../assets/image_6487327 (4).JPG",
+            "stock" : "5",
+            "imageLink": "../assets/image_6487324.JPG",
             "price": 1000,
             "description":"8 in stock. Sizes (M) to (XXL)"
         },
@@ -36,14 +40,16 @@
             "id": 5,
             "title": "Item 5",
             "category": "crochet",
+            "stock" : "20",
             "price": 2500,
-            "imageLink": "../assets/image_6487327 (5).JPG",
+            "imageLink": "../assets/image_6487325.JPG",
             "description":"4 in stock. Sizes (M) to (XXL)"
         },
         {
             "id": 6,
             "title": "Item 6",
             "category": "knit",
+            "stock" : "5",
             "price": 3000,
             "imageLink": "../assets/image_6487327.JPG",
             "description":"1 in stock. Sizes (M) "
@@ -52,6 +58,7 @@
             "id": 7,
             "title": "Item 7",
             "category": "knit",
+            "stock" : "10",
             "price": 4500,
             "imageLink": "../assets/image_67514113.JPG",
             "description":"10 in stock. Sizes (M) to (XXL)"
@@ -71,7 +78,7 @@
         },
         {
             "id": 3,
-            "comment": "I need a writte pattern",
+            "comment": "I need a written pattern",
             "title": 1
         },
         {

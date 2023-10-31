@@ -1,25 +1,30 @@
 function displayItem(item){
 
-    let card = document.createElement("ul")
-    card.className= "card"
+    let card = document.createElement("div")
+    card.className= "card col"
     card.innerHTML= `
     <img src= ${item.imageLink} class= "card-img-top" alt= "${item.title}">
     <div class = "card-body">
          <h4 class = "card-title"> ${item.title} </h4>
          <p class = "card-text"> ${item.description} </p>
+         <p class = "card-text">Ksh.${item.price} </p>
          <h5 class = "card-title">
-           Ksh:<span> ${item.price} </span>
+           Stock<span> ${item.stock} </span>
          </h5>
          <div class = "buttons">
-         <button id = 'buy'>BUY -30</button>
+         <button id = 'buy'>BUY </button>
          <button id = 'delete'>Delete</button>
          </div>
      </div> 
     `
 
     card.querySelector('#buy').addEventListener('click', () => {
-        item.price -=30
-        card.querySelector('span').textContent = item.price
+        item.stock -=1
+        if (item.stock===0){
+            alert("Hi, Not available!")
+        }
+        card.querySelector('span').textContent = item.stock
+
     })
 
     function updatePrice(itemPrice){
@@ -33,6 +38,7 @@ function displayItem(item){
         .then(res => res.json())
         .then(item => console.log(item))
     }
+
 
 // delete
 
@@ -83,7 +89,7 @@ const init = () => {
             const comment = document.querySelector('section#itemReviews p')
 
             title.innerText = data.title;
-            comment.innerText= data.comment
+            comment.innerText= data.comment;
         });
     });
 }
